@@ -1,0 +1,398 @@
+*{
+  margin: 0px;
+  border: border-box;
+  padding: 0px;
+  
+}
+body{
+  background-color: #454545;
+}
+.nav-bar{
+  height:60px;
+  width:100%;
+  background-color: #3c0000;;
+  color:white;
+  display: flex;
+  align-items: center;
+  
+
+}
+.nav-logo{
+  background-image: url(attachment_81413912-removebg-preview.png);
+  height:100px;
+  width:100px;
+  background-size: cover;
+ 
+  }
+  
+  
+  .border{
+    border:2px solid transparent;
+
+}
+.border:hover{
+    border:2px solid white;
+}
+.icon1{
+  margin-left: 50px;
+  display: flex;
+  align-items: center; 
+}
+.icon1 h2{
+  margin-left: 4px;
+}
+.search{
+  width:500px;
+  margin-left: 90px;
+}
+.search i{
+  border: 15px dashed #333;
+  margin-right:-2px;
+}
+.menuhero{
+  display: flex;
+}
+.menu{
+  border: 2px solid black;
+  width:10%;
+  height: 380px;
+  background-color:black;
+  box-shadow: #333;
+  cursor:pointer;
+  
+
+}
+.menu h4{
+  text-align: center;
+  margin-top: 20px;
+  transition:.3s linear; 
+  color:brown;
+  text-shadow: #3c0000;
+}
+.menu h4:hover{
+  color: brown;
+}
+
+
+.hero{
+  border: 2px solid black;
+background-image:url(sc_landing_header_web_featured_artists@2x-00444712.png);
+height:380px;
+background-size: cover;
+width: 90%;
+float: inline-end;
+background-size: cover;
+display:flex;
+justify-content: center;
+align-items:center;
+
+}
+.panel{
+  background-color:white;
+  height: 30px;
+  width: 100%;  
+  justify-content: space-evenly;
+}
+.panel1 button{
+  justify-content: space-between;
+}
+.trending{
+  justify-content: center;
+}
+.trending h1{
+  
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  text-decoration-line: overline;
+  text-decoration-color: red;
+
+}
+.container{
+  text-align: center;
+  border: 2px solid black;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: space-between;
+  cursor: pointer;
+  
+}
+.scontainer1{
+  background-image: url(benson-boone-–-beautiful-things.webp);
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  background-size: cover;
+  
+}
+.scontainer2{
+  background-image: url(Scared-To-Start-Michael-Marcagi.webp);
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+}
+.scontainer3{
+  background-image: url(Blanka-Cara-Mia-OFFICIAL-ARTWORK-3000-x-3000-scaled.webp);
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+}
+.scontainer4{
+  background-image: url(857288-training-season_145823.webp);
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+}
+.scontainer5{
+  background-image: url(371103007_860017982153583_4296722288065182238_n-696x696.webp);
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+}
+.scontainer6{
+  background-image:url(IMG_6006.webp);   
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  margin-right: 30px;
+}
+.scontainer7{
+  background-image:url(artworks-LBNhzHzQdddU-0-t500x500.webp);   
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  margin-right: 30px;
+}
+.scontainer8{
+  background-image:url(Wiz-Khalifa-See-You-Again-Ft-Charlie-Puth.webp);   
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  margin-right: 30px;
+
+}
+.scontainer9{
+  background-image:url(artworks-000246823724-4c1hgq-t500x500.webp);   
+  background-size:cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  margin-right: 30px;
+}
+.container2{
+  text-align: center;
+  border: 2px solid black;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.scontainer10{
+  background-image: url(IMG-20240303-WA0002.jpg);
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  background-size: cover;
+  
+}
+.scontainer11{
+  background-image: url(IMG-20240303-WA0003.jpg);
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+}
+.scontainer12{
+  background-image: url(IMG-20240303-WA0004.jpg);
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+}
+.scontainer13{
+  background-image: url(IMG-20240303-WA0005.jpg);
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+}
+.scontainer14{
+  background-image: url(IMG-20240303-WA0006.jpg);
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+}
+.scontainer15{
+  background-image:url(IMG-20240303-WA0007.jpg);   
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  margin-right: 30px;
+}
+.scontainer16{
+  background-image:url(IMG-20240303-WA0009.jpg);   
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  margin-right: 30px;
+}
+.scontainer17{
+  background-image:url(IMG-20240303-WA0008.jpg);   
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  margin-right: 30px;
+
+}
+.scontainer18{
+  background-image:url(IMG-20240303-WA0010.jpg);   
+  background-size:cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  margin-right: 30px;
+}
+.bollywood h1{
+    font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+.bollywood-con{
+  text-align: center;
+  border: 2px solid black;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: space-between;
+  cursor: pointer;
+  
+  
+}
+.bollywood-con1{
+  background-image: url(akhiyan\ gulab.webp);
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  background-size: cover;
+  
+}
+.bollywood-con1 p{
+  color: #ae7f7f;
+}
+.bollywood-con2{
+  background-image: url(heeriye.webp);
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+}
+.bollywood-con2 p{
+  color: #ae7f7f;
+}
+.bollywood-con3{
+  background-image: url(jhoome\ jo\ pathaan.webp);
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+}
+.bollywood-con3 p{
+  color: #ae7f7f;
+}
+.bollywood-con4{
+  background-image: url(mahiya\ jina\ sohna.webp);
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+}
+.bollywood-con1 p{
+  color: #ae7f7f;
+}
+.bollywood-con5{
+  background-image: url(pehle\ bhi\ main.webp);
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+}
+.bollywood-con1 p{
+  color: #ae7f7f;
+}
+.bollywood-con6{
+  background-image:url(husn.webp);   
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  margin-right: 30px;
+}
+.bollywood-con1 p{
+  color: #ae7f7f;
+}
+.bollywood-con7{
+  background-image:url(saajna\ ve.webp);   
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  margin-right: 30px;
+}
+.bollywood-con1 p{
+  color: #ae7f7f;
+}
+.bollywood-con8{
+  background-image:url(maiya\ mainu.webp);   
+  background-size: cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  margin-right: 30px;
+
+}
+.bollywood-con1 p{
+  color: #ae7f7f;
+}
+.bollywood-con9{
+  background-image:url(malang\ sajna.webp);   
+  background-size:cover;
+  border:2px solid transparent;
+  height:90px;
+  width: 90px;
+  margin-right: 30px;
+}
+.bollywood-con1 p{
+  color: #ae7f7f;
+}
+.ENGLISH{
+  margin-top: -20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.hero h1{
+  color: #fff;
+  background-color:black;
+  font-family:cursive;
+  font-size: xx-large;
+  margin-top: 30px;
+}
+
